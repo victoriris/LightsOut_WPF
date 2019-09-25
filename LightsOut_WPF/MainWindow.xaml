@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LightsOut_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="351.786">
+    <Grid Margin="0,0,2,0">
         <Menu HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="792">
             <MenuItem Header="Game" Height="40" Width="60">
                 <MenuItem Header="_New" HorizontalAlignment="Left" Height="40" Width="120
@@ -20,6 +20,7 @@
                           "/>
             </MenuItem>
         </Menu>
+        <Canvas Name="boardCanvas" HorizontalAlignment="Stretch" Height="364" Margin="10,45,0,0" VerticalAlignment="Top" Width="322"/>
 
     </Grid>
 </Window>
