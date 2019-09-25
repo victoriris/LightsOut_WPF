@@ -1,0 +1,14 @@
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\bin\Debug\LightsOut_WPF.exe.config
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\bin\Debug\LightsOut_WPF.exe
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\bin\Debug\LightsOut_WPF.pdb
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\MainWindow.g.cs
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\App.g.cs
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF_MarkupCompile.cache
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF_MarkupCompile.lref
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\MainWindow.baml
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF.g.resources
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF.Properties.Resources.resources
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF.csproj.GenerateResource.cache
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF.csproj.CoreCompileInputs.cache
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF.exe
+Y:\GDrive\Education\Harding\2019 Fall\comp 4450\LightsOut_WPF\LightsOut_WPF\obj\Debug\LightsOut_WPF.pdb

@@ -20,6 +20,7 @@ namespace LightsOut_WPF
 
             game = new LightsOutGame();
             CreateGrid();
+            DrawGrid();
         }
 
         private void CreateGrid()
@@ -56,7 +57,51 @@ namespace LightsOut_WPF
 
         private void Rect_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            throw new NotImplementedException();
+            // Get row and column from Rectangle's Tag
+            Rectangle rect = sender as Rectangle;
+            var rowCol = (Point)rect.Tag;
+            int row = (int)rowCol.X;
+            int col = (int)rowCol.Y;
+
+            game.Move(row, col);
+
+            // Redraw the grid and see if the game is over
+            DrawGrid();
+
+            // Check if won
+            if (game.IsGameOver())
+            {
+                MessageBox.Show("You’ve won!");
+            }
+
+            // Event was handled
+            e.Handled = true;
+        }
+
+        private void DrawGrid()
+        {
+            int index = 0;
+            // Set the colors of the rectangles
+            for (int r = 0; r < game.GridSize; r++)
+            {
+                for (int c = 0; c < game.GridSize; c++)
+                {
+                    Rectangle rect = boardCanvas.Children[index] as Rectangle;
+                    index++;
+                    if (game.GetGridValue(r, c))
+                    {
+                        // On
+                        rect.Fill = Brushes.White;
+                        rect.Stroke = Brushes.Black;
+                    }
+                    else
+                    {
+                        // Off
+                        rect.Fill = Brushes.Black;
+                        rect.Stroke = Brushes.White;
+                    }
+                }
+            }
         }
     }
 }
