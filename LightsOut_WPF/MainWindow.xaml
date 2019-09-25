@@ -23,11 +23,14 @@
             </MenuItem>
         </Menu>
         <Grid>
-            <Viewbox Margin="10,10,10,10">
+            <Viewbox Margin="10,10,10,80">
                 <Canvas Width="300" Height="300" Name="boardCanvas" />
             </Viewbox>
+            <Button Content="New Game" Width="85" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="40,0,0,20" Click="NewGame_Click"/>
+            <Button Content="Exit" Width="85" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,40,20" Click="MenuExit_Click"/>
+            
         </Grid>
-        
+
     </DockPanel>
     
 </Window>
