@@ -1,0 +1,33 @@
+﻿<Window x:Class="LightsOut_WPF.AboutDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LightsOut_WPF"
+        mc:Ignorable="d"
+        Title="About" Height="302.861" Width="800" Icon="MainIcon.ico" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="749*"/>
+            <ColumnDefinition Width="43*"/>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Margin="10" Grid.ColumnSpan="2">
+            <StackPanel Height="249" Width="293" Margin="0" VerticalAlignment="Center">
+                <Image x:Name="image1" Stretch="Fill" Source="MainIcon.ico" Height="111" Margin="91,0" RenderTransformOrigin="0.5,0.5" >
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <TextBlock TextWrapping="Wrap" Text="LIGHTS OUT" FontSize="36" FontWeight="Bold" TextAlignment="Center"/>
+                <TextBlock TextWrapping="Wrap" Text="By Victor Iris" FontSize="22" TextAlignment="Center"/>
+                <Button x:Name="Oktn" Content="OK" HorizontalAlignment="Center" Height="37" Width="111" Margin="0,10,0,0" Click="Oktn_Click"/>
+            </StackPanel>
+            <TextBlock TextWrapping="Wrap" Text="Turn all the lights off and win the game!" FontSize="30" FontStyle="Italic" Height="101" HorizontalAlignment="Center" VerticalAlignment="Center" Width="289" TextAlignment="Center"/>
+        </WrapPanel>
+    </Grid>
+</Window>

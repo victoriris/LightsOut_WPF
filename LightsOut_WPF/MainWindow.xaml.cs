@@ -114,5 +114,11 @@ namespace LightsOut_WPF
         {
             Application.Current.Shutdown();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            AboutDialog aboutDialog = new AboutDialog();
+            aboutDialog.ShowDialog();
+        }
     }
 }

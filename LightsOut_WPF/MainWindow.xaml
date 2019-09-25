@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LightsOut_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="351.786">
+        Title="Lights Out" Height="450" Width="351.786">
     <Grid Margin="0,0,2,0">
         <Menu HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="792">
             <MenuItem Header="Game" Height="40" Width="60">
@@ -13,11 +13,13 @@
                           " Click="NewGame_Click"/>
                 <Separator HorizontalAlignment="Left" Height="2
 " Width="120"/>
-                <MenuItem Name="MenuExit" Header="E_xit" HorizontalAlignment="Left" Height="40" Width="140" Click="MenuExit_Click"/>
+                <MenuItem Name="MenuExit" Header="E_xit" HorizontalAlignment="Left" 
+                          Height="40" Width="140" Click="MenuExit_Click" 
+                          ToolTip="Exits the application"/>
             </MenuItem>
             <MenuItem Header="Help" Height="40" Width="60">
-                <MenuItem Header="About" HorizontalAlignment="Left" Height="40" Width="120
-                          "/>
+                <MenuItem Header="About" HorizontalAlignment="Left" 
+                          Height="40" Width="120" Click="MenuItem_Click"/>
             </MenuItem>
         </Menu>
         <Canvas Name="boardCanvas" HorizontalAlignment="Stretch" Height="364" Margin="10,45,0,0" VerticalAlignment="Top" Width="322"/>
