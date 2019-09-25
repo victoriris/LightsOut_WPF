@@ -9,11 +9,11 @@
     <Grid Margin="0,0,2,0">
         <Menu HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="792">
             <MenuItem Header="Game" Height="40" Width="60">
-                <MenuItem Header="_New" HorizontalAlignment="Left" Height="40" Width="120
-                          "/>
+                <MenuItem Name="NewGameBtn" Header="_New" HorizontalAlignment="Left" Height="40" Width="120
+                          " Click="NewGame_Click"/>
                 <Separator HorizontalAlignment="Left" Height="2
 " Width="120"/>
-                <MenuItem Header="E_xit" HorizontalAlignment="Left" Height="40" Width="140"/>
+                <MenuItem Name="MenuExit" Header="E_xit" HorizontalAlignment="Left" Height="40" Width="140" Click="MenuExit_Click"/>
             </MenuItem>
             <MenuItem Header="Help" Height="40" Width="60">
                 <MenuItem Header="About" HorizontalAlignment="Left" Height="40" Width="120

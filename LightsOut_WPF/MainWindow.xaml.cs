@@ -103,5 +103,16 @@ namespace LightsOut_WPF
                 }
             }
         }
+
+        private void NewGame_Click(object sender, RoutedEventArgs e)
+        {
+            game.NewGame();
+            DrawGrid();
+        }
+
+        private void MenuExit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
